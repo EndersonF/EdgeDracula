@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "Dracula Edge",
+  "version": "1.0",
+  "description": "A Dracula theme for Microsoft Edge.",
+  "author": "Enderson Frazão",
+  "theme": {
+    "colors": {
+      "frame": [40, 42, 54],
+      "toolbar": [40, 42, 54],
+      "tab_background_text": [248, 248, 242],
+      "tab_background_separator": [241, 250, 140],
+      "tab_loading": [189, 147, 249],
+      "tab_selected": [68, 71, 90],
+      "tab_selected_text": [248, 248, 242],
+      "tab_text": [189, 147, 249],
+      "bookmark_text": [248, 248, 242],
+      "ntp_background": [40, 42, 54],
+      "ntp_text": [248, 248, 242],
+      "ntp_link": [189, 147, 249],
+      "button_background": [80, 250, 123],
+      "button_background_hover": [68, 71, 90],
+      "dropdown_background": [40, 42, 54],
+      "dropdown_border": [40, 42, 54],
+      "dropdown_text": [248, 248, 242],
+      "frame_inactive": [40, 42, 54],
+      "frame_incognito": [40, 42, 54],
+      "selection_text": [40, 42, 54],
+      "selection_background": [139, 233, 253],
+      "comment": [241, 250, 140]
+    },
+    "images": {
+      "theme_ntp_background": "/dracula-wallpaper.png"
+    },
+    "browser_action": {
+      "default_title": "Dracula Edge"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+}
